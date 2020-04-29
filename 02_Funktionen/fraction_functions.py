@@ -34,9 +34,10 @@ def gcd(a, b):
         b = h
     return a
 
+
 def cancelFract(fraction):
     gcd_val = gcd(fraction[0], fraction[1])
-    return (fraction[0]/gcd_val, fraction[1]/gcd_val)
+    return (fraction[0] / gcd_val, fraction[1] / gcd_val)
 
 
 def invFract(fraction):
