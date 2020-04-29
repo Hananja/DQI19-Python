@@ -1,5 +1,6 @@
-FRACTION_BAR_WIDTH = 5
+from __future__ import annotations
 
+FRACTION_BAR_WIDTH = 5
 
 class Fraction:
     # Konstruktor: automatisch aufgerufen bei Objekterzeugung
@@ -14,6 +15,10 @@ class Fraction:
        print(self.denominator)
        print()
 
+    def add(self, other: Fraction):
+        pass # TODO
+
+    # cancel ... TODO
 
 
 # Hauptprogramm
