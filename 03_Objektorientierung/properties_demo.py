@@ -30,6 +30,7 @@ class MyClassProperties:
             self.__value = value
 
 
+# Vanilla ohne Properties
 oop = MyClassVanilla()
 print(oop.value)
 oop.value = 1
@@ -37,6 +38,7 @@ print(oop.value)
 oop.value = -1
 print(oop.value)
 
+# mit Properties und Wertekontrolle
 try:
     omp = MyClassProperties()
     print(omp.value)
